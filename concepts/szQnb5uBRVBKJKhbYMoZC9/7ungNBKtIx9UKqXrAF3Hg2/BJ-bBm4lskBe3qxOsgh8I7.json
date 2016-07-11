@@ -1,0 +1,40 @@
+{
+  "uri" : "local://BJ-bBm4lskBe3qxOsgh8I7/",
+  "name" : "Cloud App Test Lambda View",
+  "category" : "",
+  "parent" : "local://7ungNBKtIx9UKqXrAF3Hg2/",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "model",
+    "type" : "local://7ungNBKtIx9UKqXrAF3Hg2/"
+  } ],
+  "vars" : [ {
+    "name" : "htmlTemplate",
+    "expr" : {
+      "str" : "<html>\n    <head>\n        \n    </head>\n    <body>\n        <div class=\"container\">\n            <div class=\"row\">\n                <h1>Test CJS Cloud App</h1>\n            </div>\n            <div class=\"row\">\n                <p data-bind=\"text: cvm.a\"></p>\n            </div>\n            <div class=\"row\">\n                <p data-bind=\"text: cvm.b\"></p>\n            </div>\n            <div class=\"row\">\n                <p data-bind=\"text: cvm.c\"></p>\n            </div>\n        </div>\n    </body>\n    \n    <script>\n        function CJSTestCloudAPPVM(){\n            var self = this;\n            \n            this.cvm = $cjs.ko(\"{{{modelUri}}}\");\n        }\n    </script>\n</html>",
+      "strEditMode" : "html",
+      "type" : "STRING"
+    }
+  }, {
+    "name" : "_page_propertyMap",
+    "expr" : {
+      "script" : "return {\n    \"modelUri\": model.uri(),\n    \"anchorUri\": home.anchor().uri()\n}",
+      "type" : "SCRIPT"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/Xfh2VQ4HSK9klqbqqR-eBB/",
+      "bindings" : {
+        "htmlTemplate" : "htmlTemplate",
+        "propertyMap" : "_page_propertyMap"
+      },
+      "type" : "CONCEPT"
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ],
+  "encodedidxhash" : "",
+  "isLambda" : true
+}

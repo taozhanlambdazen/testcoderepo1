@@ -1,0 +1,28 @@
+{
+  "uri" : "local://7ungNBKtIx9UKqXrAF3Hg2/",
+  "name" : "Cloud App Test Lambda",
+  "category" : "",
+  "parent" : "local://szQnb5uBRVBKJKhbYMoZC9/",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "b",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/"
+  }, {
+    "name" : "c",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/"
+  }, {
+    "name" : "a",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "default" : {
+      "str" : "",
+      "type" : "STRING"
+    }
+  } ],
+  "vars" : [ ],
+  "isas" : [ {
+    "concept" : "local://BJ-bBm4lskBe3qxOsgh8I7/",
+    "alias" : ""
+  } ],
+  "encodedidxhash" : "",
+  "isLambda" : true
+}
