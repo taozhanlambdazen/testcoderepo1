@@ -9,7 +9,7 @@
     "name" : "_config_configure",
     "expr" : {
       "json" : {
-        "dataFolderUri" : "/cjsapptest/testdatarepo1/01LwwAkZssBLEq70licLnE/"
+        "dataFolderUri" : "/cjsapptestruntime/testdatarepo1/LPUsvit2A58tRqlh3oNN79/"
       },
       "type" : "JSON"
     }
