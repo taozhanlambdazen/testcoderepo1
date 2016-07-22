@@ -1,0 +1,12 @@
+{
+  "uri" : "local://S3iGJAFL1i8mYah3Pq7vC9/",
+  "name" : "settings",
+  "category" : ".settings",
+  "parent" : "local://szQnb5uBRVBKJKhbYMoZC9/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ ],
+  "isas" : [ ],
+  "encodedidxhash" : "",
+  "isLambda" : false
+}
